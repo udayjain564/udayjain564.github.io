@@ -1,0 +1,115 @@
+/* ---------- GLOBAL DARK THEME ---------- */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #0a0a0a;
+    color: #e0e0e0;
+}
+
+a {
+    text-decoration: none;
+    color: #4da6ff;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #82c5ff;
+}
+
+nav {
+    background-color: #0d0d0d;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #1a1a1a;
+}
+
+nav .logo {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #4da6ff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+}
+
+nav ul li a {
+    color: #ccc;
+    font-size: 1rem;
+}
+
+nav ul li a:hover {
+    color: #4da6ff;
+}
+
+.hero {
+    padding: 130px 60px;
+    text-align: left;
+}
+
+.hero h1 {
+    font-size: 3.2rem;
+    margin: 0;
+    font-weight: 700;
+}
+
+.hero h2 {
+    font-size: 1.4rem;
+    color: #82c5ff;
+    margin-top: 10px;
+}
+
+.btn-primary {
+    padding: 12px 28px;
+    background-color: #4da6ff;
+    color: black;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 35px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #82c5ff;
+}
+
+.section {
+    padding: 80px 60px;
+}
+
+.section h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    border-left: 4px solid #4da6ff;
+    padding-left: 12px;
+}
+
+.card {
+    background-color: #111;
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    border: 1px solid #1f1f1f;
+    transition: 0.3s;
+}
+
+.card:hover {
+    border-color: #4da6ff;
+    transform: translateY(-4px);
+}
+
+footer {
+    text-align: center;
+    padding: 35px;
+    background-color: #0d0d0d;
+    margin-top: 60px;
+    border-top: 1px solid #1a1a1a;
+    color: #999;
+}
